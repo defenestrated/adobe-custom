@@ -1,0 +1,1 @@
+﻿(function(){    var queries = ["hch xml 1 whitespace",        "hch xml 2 trailing whitespace",        "hch xml 3 1st break"];	  for (var i = 0; i < queries.length; i++) {		    app.loadFindChangeQuery (queries[i], SearchModes.grepSearch);        // alert("running: " + queries[i]);		    app.documents[0].changeGrep();        // $.sleep(1000);	  }}());
